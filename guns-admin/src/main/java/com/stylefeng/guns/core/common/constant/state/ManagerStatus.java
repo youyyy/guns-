@@ -1,4 +1,4 @@
-package com.stylefeng.guns.api.common.constant.state;
+package com.stylefeng.guns.core.common.constant.state;
 
 /**
  * 管理员的状态

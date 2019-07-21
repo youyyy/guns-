@@ -1,9 +1,9 @@
-package com.stylefeng.guns.api.common.constant.dictmap.factory;
+package com.stylefeng.guns.core.common.constant.dictmap.factory;
 
-import com.stylefeng.guns.api.common.constant.factory.ConstantFactory;
-import com.stylefeng.guns.api.common.constant.factory.IConstantFactory;
-import com.stylefeng.guns.api.common.exception.BizExceptionEnum;
-import com.stylefeng.guns.api.exception.GunsException;
+import com.stylefeng.guns.core.common.constant.factory.ConstantFactory;
+import com.stylefeng.guns.core.common.constant.factory.IConstantFactory;
+import com.stylefeng.guns.core.common.exception.BizExceptionEnum;
+import com.stylefeng.guns.core.exception.GunsException;
 
 import java.lang.reflect.Method;
 

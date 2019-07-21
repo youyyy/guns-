@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.stylefeng.guns.api.beetl;
+package com.stylefeng.guns.core.beetl;
 
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.subject.Subject;
 import org.beetl.core.GroupTemplate;
 
-import com.stylefeng.guns.api.shiro.ShiroUser;
+import com.stylefeng.guns.core.shiro.ShiroUser;
 
 public class ShiroExt {
     private static final String NAMES_DELIMETER = ",";

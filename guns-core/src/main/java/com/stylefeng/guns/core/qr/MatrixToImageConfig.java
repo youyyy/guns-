@@ -59,3 +59,4 @@ public final class MatrixToImageConfig {
     return onColor == BLACK && offColor == WHITE ? BufferedImage.TYPE_BYTE_BINARY : BufferedImage.TYPE_INT_RGB;
   }
 
+}

@@ -1,4 +1,4 @@
-package com.stylefeng.guns.api.exception;
+package com.stylefeng.guns.core.exception;
 
 /**
  * 封装guns的异常

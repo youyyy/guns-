@@ -93,4 +93,6 @@ public class ShiroFactroy implements IShiro {
         String source = user.getSalt();
         ByteSource credentialsSalt = new Md5Hash(source);
         return new SimpleAuthenticationInfo(shiroUser, credentials, credentialsSalt, realmName);
-   
+    }
+
+}

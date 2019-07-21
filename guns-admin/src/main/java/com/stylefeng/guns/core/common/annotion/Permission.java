@@ -1,4 +1,4 @@
-package com.stylefeng.guns.api.common.annotion;
+package com.stylefeng.guns.core.common.annotion;
 
 import java.lang.annotation.*;
 

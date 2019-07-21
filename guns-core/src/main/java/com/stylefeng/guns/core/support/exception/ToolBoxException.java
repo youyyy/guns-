@@ -42,3 +42,4 @@ public class ToolBoxException extends RuntimeException{
 	public ToolBoxException(Throwable throwable, String messageTemplate, Object... params) {
 		super(StrKit.format(messageTemplate, params), throwable);
 	}
+}

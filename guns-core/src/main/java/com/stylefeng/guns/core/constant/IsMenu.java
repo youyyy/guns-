@@ -1,4 +1,4 @@
-package com.stylefeng.guns.api.constant;
+package com.stylefeng.guns.core.constant;
 
 /**
  * 是否是菜单的枚举

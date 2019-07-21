@@ -1,4 +1,4 @@
-package com.stylefeng.guns.user;
+package com.stylefeng.guns.gateway;
 
 import com.alibaba.dubbo.spring.boot.annotation.EnableDubboConfiguration;
 import org.springframework.boot.SpringApplication;

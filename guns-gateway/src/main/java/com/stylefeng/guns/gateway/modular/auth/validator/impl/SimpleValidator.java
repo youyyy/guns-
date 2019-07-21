@@ -1,7 +1,7 @@
-package com.stylefeng.guns.user.modular.auth.validator.impl;
+package com.stylefeng.guns.gateway.modular.auth.validator.impl;
 
-import com.stylefeng.guns.user.modular.auth.validator.IReqValidator;
-import com.stylefeng.guns.user.modular.auth.validator.dto.Credence;
+import com.stylefeng.guns.gateway.modular.auth.validator.IReqValidator;
+import com.stylefeng.guns.gateway.modular.auth.validator.dto.Credence;
 import org.springframework.stereotype.Service;
 
 /**

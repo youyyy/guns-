@@ -197,4 +197,5 @@ public class DictSelectorTag extends Tag {
         }catch (IOException e){
             throw new RuntimeException("输出字典标签错误");
         }
-    
+    }
+}

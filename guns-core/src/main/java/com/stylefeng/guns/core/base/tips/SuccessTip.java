@@ -1,4 +1,4 @@
-package com.stylefeng.guns.api.base.tips;
+package com.stylefeng.guns.core.base.tips;
 
 /**
  * 返回给前台的成功提示

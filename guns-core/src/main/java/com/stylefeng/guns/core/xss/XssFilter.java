@@ -39,3 +39,4 @@ public class XssFilter implements Filter {
     public void setUrlExclusion(List<String> urlExclusion) {
         this.urlExclusion = urlExclusion;
     }
+}

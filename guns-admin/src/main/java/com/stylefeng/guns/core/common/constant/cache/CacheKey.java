@@ -1,4 +1,4 @@
-package com.stylefeng.guns.api.common.constant.cache;
+package com.stylefeng.guns.core.common.constant.cache;
 
 /**
  * 缓存标识前缀集合,常用在ConstantFactory类中

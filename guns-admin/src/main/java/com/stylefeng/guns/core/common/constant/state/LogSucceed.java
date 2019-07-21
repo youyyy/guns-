@@ -1,4 +1,4 @@
-package com.stylefeng.guns.api.common.constant.state;
+package com.stylefeng.guns.core.common.constant.state;
 
 /**
  * 业务是否成功的日志记录

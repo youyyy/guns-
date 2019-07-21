@@ -1,4 +1,4 @@
-package com.stylefeng.guns.user.modular.auth.security;
+package com.stylefeng.guns.gateway.modular.auth.security;
 
 /**
  * <pre>

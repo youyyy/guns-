@@ -1,8 +1,8 @@
-package com.stylefeng.guns.api.mutidatasource.aop;
+package com.stylefeng.guns.core.mutidatasource.aop;
 
-import com.stylefeng.guns.api.mutidatasource.DataSourceContextHolder;
-import com.stylefeng.guns.api.mutidatasource.annotion.DataSource;
-import com.stylefeng.guns.api.config.properties.MutiDataSourceProperties;
+import com.stylefeng.guns.core.mutidatasource.DataSourceContextHolder;
+import com.stylefeng.guns.core.mutidatasource.annotion.DataSource;
+import com.stylefeng.guns.core.config.properties.MutiDataSourceProperties;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.Signature;
 import org.aspectj.lang.annotation.Around;
@@ -30,7 +30,7 @@ public class MultiSourceExAop implements Ordered {
     @Autowired
     MutiDataSourceProperties mutiDataSourceProperties;
 
-    @Pointcut(value = "@annotation(com.stylefeng.guns.api.mutidatasource.annotion.DataSource)")
+    @Pointcut(value = "@annotation(com.stylefeng.guns.core.mutidatasource.annotion.DataSource)")
     private void cut() {
 
     }

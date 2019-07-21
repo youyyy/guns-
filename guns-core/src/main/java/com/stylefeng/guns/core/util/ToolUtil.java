@@ -579,3 +579,4 @@ public class ToolUtil {
         int lastIndexOf = fileWholeName.lastIndexOf(".");
         return fileWholeName.substring(lastIndexOf + 1);
     }
+}

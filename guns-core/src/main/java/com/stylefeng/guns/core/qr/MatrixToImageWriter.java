@@ -118,3 +118,5 @@ public final class MatrixToImageWriter {
       throw new IOException("Could not write an image of format " + format);
     }
   }
+
+}

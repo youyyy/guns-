@@ -1,4 +1,4 @@
-package com.stylefeng.guns.api.common.exception;
+package com.stylefeng.guns.core.common.exception;
 
 /**
  * 验证码错误异常

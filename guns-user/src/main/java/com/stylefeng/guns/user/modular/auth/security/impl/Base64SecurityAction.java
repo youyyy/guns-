@@ -1,6 +1,6 @@
-package com.stylefeng.guns.rest.modular.auth.security.impl;
+package com.stylefeng.guns.user.modular.auth.security.impl;
 
-import com.stylefeng.guns.rest.modular.auth.security.DataSecurityAction;
+import com.stylefeng.guns.user.modular.auth.security.DataSecurityAction;
 import org.springframework.util.Base64Utils;
 
 /**

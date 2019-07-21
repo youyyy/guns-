@@ -1,4 +1,4 @@
-package com.stylefeng.guns.api.common.constant.factory;
+package com.stylefeng.guns.core.common.constant.factory;
 
 import com.stylefeng.guns.modular.system.model.Dict;
 

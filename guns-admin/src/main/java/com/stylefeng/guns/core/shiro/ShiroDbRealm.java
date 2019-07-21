@@ -1,8 +1,8 @@
-package com.stylefeng.guns.api.shiro;
+package com.stylefeng.guns.core.shiro;
 
-import com.stylefeng.guns.api.shiro.factory.IShiro;
-import com.stylefeng.guns.api.shiro.factory.ShiroFactroy;
-import com.stylefeng.guns.api.util.ToolUtil;
+import com.stylefeng.guns.core.shiro.factory.IShiro;
+import com.stylefeng.guns.core.shiro.factory.ShiroFactroy;
+import com.stylefeng.guns.core.util.ToolUtil;
 import com.stylefeng.guns.modular.system.model.User;
 import org.apache.shiro.authc.*;
 import org.apache.shiro.authc.credential.CredentialsMatcher;

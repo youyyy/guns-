@@ -1,4 +1,4 @@
-package com.stylefeng.guns.user.common;
+package com.stylefeng.guns.gateway.common;
 
 /**
  * 测试用的

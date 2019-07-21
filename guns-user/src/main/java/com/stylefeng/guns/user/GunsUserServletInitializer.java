@@ -1,5 +1,6 @@
-package com.stylefeng.guns.rest;
+package com.stylefeng.guns.user;
 
+import com.stylefeng.guns.user.GunsUserApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
@@ -9,11 +10,11 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
  * @author fengshuonan
  * @date 2017年9月29日09:00:42
  */
-public class GunsGatewayServletInitializer extends SpringBootServletInitializer {
+public class GunsUserServletInitializer extends SpringBootServletInitializer {
 
     @Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
-        return builder.sources(GunsGatewayApplication.class);
+        return builder.sources(GunsUserApplication.class);
     }
 
 }

@@ -1,4 +1,4 @@
-package com.stylefeng.guns.rest.modular.auth.converter;
+package com.stylefeng.guns.user.modular.auth.converter;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.support.spring.FastJsonHttpMessageConverter;
@@ -6,9 +6,11 @@ import com.stylefeng.guns.core.exception.GunsException;
 import com.stylefeng.guns.core.support.HttpKit;
 import com.stylefeng.guns.core.util.MD5Util;
 import com.stylefeng.guns.rest.common.exception.BizExceptionEnum;
-import com.stylefeng.guns.rest.config.properties.JwtProperties;
-import com.stylefeng.guns.rest.modular.auth.security.DataSecurityAction;
-import com.stylefeng.guns.rest.modular.auth.util.JwtTokenUtil;
+
+import com.stylefeng.guns.user.config.properties.JwtProperties;
+import com.stylefeng.guns.user.modular.auth.converter.BaseTransferEntity;
+import com.stylefeng.guns.user.modular.auth.security.DataSecurityAction;
+import com.stylefeng.guns.user.modular.auth.util.JwtTokenUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpInputMessage;
 import org.springframework.http.converter.HttpMessageNotReadableException;

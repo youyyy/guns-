@@ -1,4 +1,4 @@
-package com.stylefeng.guns.api.util;
+package com.stylefeng.guns.core.util;
 
 import org.springframework.core.io.Resource;
 import org.springframework.core.io.support.PathMatchingResourcePatternResolver;

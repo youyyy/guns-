@@ -1,6 +1,6 @@
-package com.stylefeng.guns.api.common.constant.dictmap;
+package com.stylefeng.guns.core.common.constant.dictmap;
 
-import com.stylefeng.guns.api.common.constant.dictmap.base.AbstractDictMap;
+import com.stylefeng.guns.core.common.constant.dictmap.base.AbstractDictMap;
 
 /**
  * 用于删除业务的字典

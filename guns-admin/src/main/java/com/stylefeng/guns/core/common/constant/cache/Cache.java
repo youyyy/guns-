@@ -1,4 +1,4 @@
-package com.stylefeng.guns.api.common.constant.cache;
+package com.stylefeng.guns.core.common.constant.cache;
 
 /**
  * 所有缓存名称的集合

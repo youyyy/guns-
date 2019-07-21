@@ -31,3 +31,4 @@ public class SessionHolderInterceptor extends BaseController {
             HttpSessionHolder.remove();
         }
     }
+}

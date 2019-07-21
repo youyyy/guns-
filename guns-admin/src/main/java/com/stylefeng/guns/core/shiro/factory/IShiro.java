@@ -47,3 +47,4 @@ public interface IShiro {
      */
     SimpleAuthenticationInfo info(ShiroUser shiroUser, User user, String realmName);
 
+}

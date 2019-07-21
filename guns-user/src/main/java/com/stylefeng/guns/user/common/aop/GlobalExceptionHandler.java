@@ -1,4 +1,4 @@
-package com.stylefeng.guns.rest.common.aop;
+package com.stylefeng.guns.user.common.aop;
 
 import com.stylefeng.guns.core.aop.BaseControllerExceptionHandler;
 import com.stylefeng.guns.core.base.tips.ErrorTip;

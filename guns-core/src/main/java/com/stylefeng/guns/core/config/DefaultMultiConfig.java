@@ -1,6 +1,6 @@
-package com.stylefeng.guns.api.config;
+package com.stylefeng.guns.core.config;
 
-import com.stylefeng.guns.api.mutidatasource.aop.MultiSourceExAop;
+import com.stylefeng.guns.core.mutidatasource.aop.MultiSourceExAop;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

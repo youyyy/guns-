@@ -13,3 +13,4 @@ public class KaptchaUtil {
     public static Boolean getKaptchaOnOff() {
         return SpringContextHolder.getBean(GunsProperties.class).getKaptchaOpen();
     }
+}

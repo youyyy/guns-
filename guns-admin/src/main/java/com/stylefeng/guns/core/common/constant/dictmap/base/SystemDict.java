@@ -1,4 +1,4 @@
-package com.stylefeng.guns.api.common.constant.dictmap.base;
+package com.stylefeng.guns.core.common.constant.dictmap.base;
 
 /**
  * 系统相关的字典

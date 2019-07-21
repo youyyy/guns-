@@ -31,3 +31,4 @@ public class LogObjectHolder implements Serializable{
         LogObjectHolder bean = SpringContextHolder.getBean(LogObjectHolder.class);
         return bean;
     }
+}

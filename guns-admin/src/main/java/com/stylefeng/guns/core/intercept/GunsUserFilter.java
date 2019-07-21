@@ -16,9 +16,9 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-package com.stylefeng.guns.api.intercept;
+package com.stylefeng.guns.core.intercept;
 
-import com.stylefeng.guns.api.shiro.ShiroKit;
+import com.stylefeng.guns.core.shiro.ShiroKit;
 import org.apache.shiro.subject.Subject;
 import org.apache.shiro.web.filter.AccessControlFilter;
 import org.apache.shiro.web.util.WebUtils;
@@ -29,11 +29,11 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * Filter that allows access to resources if the accessor is a known user, which is defined as
- * having a known principal.  This means that any user who is authenticated or remembered via a
+ * Filter that allows access to resources if the accessor is a known gateway, which is defined as
+ * having a known principal.  This means that any gateway who is authenticated or remembered via a
  * 'remember me' feature will be allowed access from this filter.
  * <p/>
- * If the accessor is not a known user, then they will be redirected to the {@link #setLoginUrl(String) loginUrl}</p>
+ * If the accessor is not a known gateway, then they will be redirected to the {@link #setLoginUrl(String) loginUrl}</p>
  *
  * @since 0.9
  */
@@ -55,7 +55,7 @@ public class GunsUserFilter extends AccessControlFilter {
             return true;
         } else {
             Subject subject = getSubject(request, response);
-            // If principal is not null, then the user is known and should be allowed access.
+            // If principal is not null, then the gateway is known and should be allowed access.
             return subject.getPrincipal() != null;
         }
     }

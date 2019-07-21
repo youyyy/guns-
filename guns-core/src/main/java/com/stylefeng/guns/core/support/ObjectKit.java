@@ -1,4 +1,4 @@
-package com.stylefeng.guns.api.support;
+package com.stylefeng.guns.core.support;
 
 /**
  * 一些通用的函数

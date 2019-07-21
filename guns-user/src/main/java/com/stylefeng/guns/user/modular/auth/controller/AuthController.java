@@ -1,11 +1,14 @@
-package com.stylefeng.guns.rest.modular.auth.controller;
+package com.stylefeng.guns.user.modular.auth.controller;
 
+import com.alibaba.dubbo.config.annotation.Reference;
+import com.stylefeng.guns.api.user.UserAPI;
 import com.stylefeng.guns.core.exception.GunsException;
 import com.stylefeng.guns.rest.common.exception.BizExceptionEnum;
-import com.stylefeng.guns.rest.modular.auth.controller.dto.AuthRequest;
-import com.stylefeng.guns.rest.modular.auth.controller.dto.AuthResponse;
-import com.stylefeng.guns.rest.modular.auth.util.JwtTokenUtil;
-import com.stylefeng.guns.rest.modular.auth.validator.IReqValidator;
+
+import com.stylefeng.guns.user.modular.auth.controller.dto.AuthRequest;
+import com.stylefeng.guns.user.modular.auth.controller.dto.AuthResponse;
+import com.stylefeng.guns.user.modular.auth.util.JwtTokenUtil;
+import com.stylefeng.guns.user.modular.auth.validator.IReqValidator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestMapping;

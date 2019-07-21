@@ -55,3 +55,4 @@ public class SimpleContrast {
         }
         return str;
     }
+}

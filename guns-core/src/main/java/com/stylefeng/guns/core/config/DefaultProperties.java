@@ -1,6 +1,6 @@
-package com.stylefeng.guns.api.config;
+package com.stylefeng.guns.core.config;
 
-import com.stylefeng.guns.api.config.properties.DruidProperties;
+import com.stylefeng.guns.core.config.properties.DruidProperties;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

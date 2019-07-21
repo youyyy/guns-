@@ -1,4 +1,4 @@
-package com.stylefeng.guns.api.common.constant;
+package com.stylefeng.guns.core.common.constant;
 
 /**
  * 系统常量

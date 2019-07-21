@@ -1,4 +1,4 @@
-package com.stylefeng.guns.user.common.exception;
+package com.stylefeng.guns.gateway.common.exception;
 
 import com.stylefeng.guns.core.exception.ServiceExceptionEnum;
 

@@ -1,7 +1,7 @@
-package com.stylefeng.guns.user.common.persistence.dao;
+package com.stylefeng.guns.gateway.common.persistence.dao;
 
 import com.baomidou.mybatisplus.mapper.BaseMapper;
-import com.stylefeng.guns.user.common.persistence.model.User;
+import com.stylefeng.guns.gateway.common.persistence.model.User;
 
 /**
  * <p>

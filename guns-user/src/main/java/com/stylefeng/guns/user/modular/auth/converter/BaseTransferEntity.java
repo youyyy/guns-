@@ -1,4 +1,4 @@
-package com.stylefeng.guns.rest.modular.auth.converter;
+package com.stylefeng.guns.user.modular.auth.converter;
 
 /**
  * 基础的传输bean

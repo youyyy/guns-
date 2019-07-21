@@ -1,4 +1,4 @@
-package com.stylefeng.guns.rest.modular.auth.validator.dto;
+package com.stylefeng.guns.user.modular.auth.validator.dto;
 
 /**
  * 验证的凭据

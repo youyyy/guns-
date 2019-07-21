@@ -1,8 +1,8 @@
-package com.stylefeng.guns.api.aop;
+package com.stylefeng.guns.core.aop;
 
-import com.stylefeng.guns.api.base.tips.ErrorTip;
-import com.stylefeng.guns.api.exception.GunsException;
-import com.stylefeng.guns.api.exception.GunsExceptionEnum;
+import com.stylefeng.guns.core.base.tips.ErrorTip;
+import com.stylefeng.guns.core.exception.GunsException;
+import com.stylefeng.guns.core.exception.GunsExceptionEnum;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;

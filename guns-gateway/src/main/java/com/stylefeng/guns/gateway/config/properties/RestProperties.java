@@ -1,4 +1,4 @@
-package com.stylefeng.guns.user.config.properties;
+package com.stylefeng.guns.gateway.config.properties;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Configuration;

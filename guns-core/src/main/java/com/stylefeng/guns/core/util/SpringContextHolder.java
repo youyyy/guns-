@@ -1,4 +1,4 @@
-package com.stylefeng.guns.api.util;
+package com.stylefeng.guns.core.util;
 
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;

@@ -68,4 +68,6 @@ public class PermissionCheckFactory implements ICheck {
             return true;
         }
         return false;
-  
+    }
+
+}
