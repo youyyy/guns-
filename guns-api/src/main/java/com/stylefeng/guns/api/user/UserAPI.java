@@ -2,7 +2,13 @@ package com.stylefeng.guns.api.user;
 
 public interface UserAPI {
 
-    boolean login(String username, String password);
+    /**
+     *
+     * @param username
+     * @param password
+     * @return uuid
+     */
+    int login(String username, String password);
 
     boolean registory(UserModel userModel);
 
